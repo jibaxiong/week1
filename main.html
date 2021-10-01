@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>main page</title>
+    <style>
+    body {
+      margin: 0;
+    }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 15px;
+      }
+      #grid ol {
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 33px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article {
+        padding-left: 25px;
+      }
+
+      @media(max-width: 600px){
+        #grid {
+          display: block;
+        }
+        #grid ol {
+          border-right: none;
+        }
+        h1 {
+          border-bottom: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><a href="main.html">JIWOONG CHOI</h1>
+      <div id="grid">
+        <ol>
+          <li><a href="main.html">메인페이지</a></li>
+          <li><a href="jiwoongchoi.html">자기소개</a></li>
+          <li><a href="workhistory.html">경력</a></li>
+          <li><a href="gako.html">목표 및 각오</a></li>
+        </ol>
+      <div id="article">
+      <h2>메인페이지</h2>
+      <p>지난일주일간 공부한 내용을 바탕으로 간단하게 만들어본 페이지 입니다, Youtube 생활코딩채널의 <a href="https://www.youtube.com/watch?v=tZooW6PritE&list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" target="_blank">WEB1 - HTML & internet</a>, <a href="https://www.youtube.com/watch?v=Ok0bBJPtgJI&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B" target="_blank">WEB2 - CSS</a> 강의를 참고하였고, 능력부족으로 인해 강의중 실습예제로 사용한 페이지양식 그대로 사용하게되었습니다 ^^;</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>main page</title>
+    <style>
+    body {
+      margin: 0;
+    }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 15px;
+      }
+      #grid ol {
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 33px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article {
+        padding-left: 25px;
+      }
+
+      @media(max-width: 600px){
+        #grid {
+          display: block;
+        }
+        #grid ol {
+          border-right: none;
+        }
+        h1 {
+          border-bottom: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="main.html">JIWOONG CHOI</h1>
+      <div id="grid">
+        <ol>
+          <li><a href="main.html">메인페이지</a></li>
+          <li><a href="jiwoongchoi.html">자기소개</a></li>
+          <li><a href="workhistory.html">경력</a></li>
+          <li><a href="gako.html">목표 및 각오</a></li>
+        </ol>
+      <div id="article">
+      <h2>목표 및 각오</h2>
+      <p>졸업후 자동차딜러에서 일할때도 차량을 고치는것보다는 인포시스템에 더 관심이 있었고, 하드웨어보다는 소프트웨어에 더 관심을 보였습니다. 코딩쪽으로 관심을 가지고 열심히 검색한 결과 위코드를 알게되었고, 공부한지 일주일 밖에 지나지 않았지만, 너무 재미있는거 같아서 다행입니다. 3개월동안 큰돈이지만 코딩이라는 세계를 경험해 보고 싶습니다, 앞으로 잘 부탁드리고 다들 화이팅 입니다!</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>main page</title>
+    <style>
+    body {
+      margin: 0;
+    }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 15px;
+      }
+      #grid ol {
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 33px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article {
+        padding-left: 25px;
+      }
+
+      @media(max-width: 600px){
+        #grid {
+          display: block;
+        }
+        #grid ol {
+          border-right: none;
+        }
+        h1 {
+          border-bottom: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="main.html">JIWOONG CHOI</h1>
+      <div id="grid">
+        <ol>
+          <li><a href="main.html">메인페이지</a></li>
+          <li><a href="jiwoongchoi.html">자기소개</a></li>
+          <li><a href="workhistory.html">경력</a></li>
+          <li><a href="gako.html">목표 및 각오</a></li>
+        </ol>
+      <div id="article">
+      <h2>경력</h2>
+      <p>경력을 멋있게 쫙 표도 그리고 하고 싶지만, 시간부족 및 아직 배운기능이 없어서 서술형으로 나열해 보겠습니다. 프로 알바러에 한가지일 오래 못하는 성격상 여러가지 일을 짧게 경험하였습니다.알바로는 택배, 음식배달, 공장 생산직, 화력발전소 전기팀, 새볔배송물류센터 피킹/패킹, 세차장, 명품 구매대행, 노브랜드 캐셔, AI데이터 라벨링, 게임 테스트, 전파 측정, 하이마트, 주차장 안내, 공사장 노가다 등이 있으며, 대학졸업후에는 Mazda of Hamilton 에서 테크니션으로 2년근무, SLP Solar Film 에서 인스톨러로 1년간 근무하였습니다. 가장 최근은 판교의 한 스타트업에서 기획팀으로 면접을 봤지만 유지보수팀으로 들어가게된 어메이징한 인턴과정을 마쳤습니다.</p>
+      </div>
+    </div>
+  </body>
+</html>
